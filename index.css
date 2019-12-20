@@ -6,4 +6,38 @@
     width: 100%;
     height: auto;
 }
+.iframe{
+    position: absolute;
+    top: 38%;
+    right: 22%;
+}
+/* 
+@media (max-width: 767px) {
+    #picblock {
+        height: 484px;
+        width: 100%;
+        background-image: url(mobile/pic1_03.gif);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+}
 
+@media (min-width: 768px) and (max-width: 991px) {
+    #picblock {
+        height: 767px;
+        width: 100%;
+        background-image: url(tablet/pic1_03.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+}
+
+
+@media (min-width: 992px) {
+    #picblock {
+    height: 1920px;
+    background-image: url(desktop/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+} */

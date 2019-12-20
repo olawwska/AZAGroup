@@ -1,32 +1,21 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 p-0">                  
-                    <!-- <picture>
-                        <source
-                        media="(min-width:448px)"
-                        srcset="mobile/pic1_03.gif">
-                        <source 
-                        media="(min-width: 767px)" 
-                        srcset="tablet/pic1_03.jpg">
-                        <source 
-                        media="(min-width: 991px)" 
-                        srcset="desktop/pic1.jpg">
-                        <img class="img-fluid"
-                        src="mobile/pic1_03.gif" 
-                        alt="London neon">
-                    </picture> -->
-                    <img class="img-fluid" 
-                    srcset="/mobile/pic1_03.gif 484w, 
-                            /tablet/pic1_03.jpg 739w, 
-                            /desktop/pic1.jpg 1098w"
-                    sizes="100vw"
-                    src="/mobile/pic1_03.gif" alt="London neon"> 
+                <div class="col-12 p-0" id="picblock"> 
+                    <picture>
+                        <source media="(min-width: 768px) and (max-width: 991px)"
+                        srcset="/tablet/pic1_03.jpg">
+                        <source media="(min-width: 992px)"
+                        srcset="/desktop/pic1.jpg">
+                        <img src="/mobile/pic1_03.gif">
+                    </picture>  
+                    <!-- <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/e7NWaOkZrso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                -->
                 </div>
             </div>
             <div class="row">
