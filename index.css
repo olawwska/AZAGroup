@@ -1,7 +1,6 @@
 *{
     padding: 0; 
     margin: 0;
-    text-transform: capitalize;
 }
 .img-fluid{
     width: 100%;
@@ -46,7 +45,6 @@
     }
     .photo-dancing{
         position: absolute;
-        width: 27%;
         z-index: 1;
         bottom: -9.4rem;
         right: 10rem;
@@ -68,5 +66,12 @@
     .photo-moth{
         margin-bottom: 2rem;
     } 
+    .button{
+        width: 150px; 
+        background-color: black;
+        color: white;
+        font-weight: light;
+        padding: 5px;
+    }
 }
 
