@@ -42,30 +42,33 @@
 @media (min-width: 992px) {
     .photo-cafe{
         position: relative;
-        margin: 55px 0 80px 20px;
+        margin: 3rem 0 3rem 2rem;
         width: 96%;
     }
     .photo-dancing{
         position: absolute;
         width: 27%;
         z-index: 1;
-        left: 59%;
-        bottom: -175px;
+        bottom: -10.2rem;
+        left: 65.5rem;
     }
     .gif-london{
-        margin: 20px 0 0 250px;
+        margin: 2rem 0 0 15rem;
         width: 90%;
     }
     .photo-london{
         position: relative;
-        margin: 37px 0 165px 0;
+        margin: 2rem 0 2rem 0;
     }
     .gif-lightning{
         position: absolute;
-        width: 59%;
+        width: 53%;
         z-index: 1;
-        left: 30%;
-        bottom: -570px;
-    }  
+        left: 32%;
+        bottom: -36rem;
+    } 
+    .photo-moth{
+        margin-bottom: 2rem;
+    } 
 }
 
