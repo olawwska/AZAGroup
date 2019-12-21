@@ -41,7 +41,6 @@
 }
 @media (min-width: 992px) {
     .photo-cafe{
-        position: relative;
         margin: 3rem 0 3rem 2rem;
         width: 96%;
     }
@@ -49,15 +48,14 @@
         position: absolute;
         width: 27%;
         z-index: 1;
-        bottom: -10.2rem;
-        left: 65.5rem;
+        bottom: -9.4rem;
+        right: 10rem;
     }
     .gif-london{
         margin: 2rem 0 0 15rem;
         width: 90%;
     }
     .photo-london{
-        position: relative;
         margin: 2rem 0 2rem 0;
     }
     .gif-lightning{
@@ -65,7 +63,7 @@
         width: 53%;
         z-index: 1;
         left: 32%;
-        bottom: -36rem;
+        bottom: -24em;
     } 
     .photo-moth{
         margin-bottom: 2rem;
