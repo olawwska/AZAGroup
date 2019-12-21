@@ -1,0 +1,77 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.iframe{
+    position: absolute;
+    top: 16%;
+    right: 24%;
+    width: 53%;
+    height: 68%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .photo-cafe{
+        position: relative;
+        margin-bottom: 18rem;
+    }
+    .photo-dancing{
+        position: absolute;
+        width: 44%;
+        z-index: 1;
+        top: 17rem;
+        left: 30rem;
+    }
+    .photo-london{
+        position: relative;
+        margin-bottom: 43rem;
+    }
+    .gif-lightning{
+        position: absolute;
+        width: 59%;
+        z-index: 1;
+        left: 21%;
+        bottom: 0px;
+    }
+}
+@media (min-width: 992px) {
+    .photo-cafe{
+        margin: 3rem 0 3rem 2rem;
+        width: 96%;
+    }
+    .photo-dancing{
+        position: absolute;
+        z-index: 1;
+        bottom: -9.4rem;
+        right: 10rem;
+    }
+    .gif-london{
+        margin: 2rem 0 0 15rem;
+        width: 90%;
+    }
+    .photo-london{
+        margin: 2rem 0 2rem 0;
+    }
+    .gif-lightning{
+        position: absolute;
+        width: 53%;
+        z-index: 1;
+        left: 32%;
+        bottom: -24em;
+    } 
+    .photo-moth{
+        margin-bottom: 2rem;
+    } 
+    .button{
+        width: 150px; 
+        background-color: black;
+        color: white;
+        font-weight: light;
+        padding: 5px;
+    }
+}
+
