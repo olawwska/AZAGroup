@@ -1,6 +1,7 @@
 *{
     padding: 0; 
     margin: 0;
+    text-transform: capitalize;
 }
 .img-fluid{
     width: 100%;
@@ -11,33 +12,58 @@
     top: 38%;
     right: 22%;
 }
-/* 
-@media (max-width: 767px) {
-    #picblock {
-        height: 484px;
-        width: 100%;
-        background-image: url(mobile/pic1_03.gif);
-        background-repeat: no-repeat;
-        background-size: contain;
-      }
-}
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #picblock {
-        height: 767px;
-        width: 100%;
-        background-image: url(tablet/pic1_03.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-      }
+    .photo-cafe{
+        position: relative;
+        margin-bottom: 319px;
+    }
+    .photo-dancing{
+        position: absolute;
+        width: 47%;
+        z-index: 1;
+        left: 25%;
+        top: 116px;
+    }
+    .photo-london{
+        position: relative;
+        margin-bottom: 165px;
+    }
+    .gif-lightning{
+        position: absolute;
+        width: 59%;
+        z-index: 1;
+        left: 21%;
+        bottom: 0px;
+    }
+}
+@media (min-width: 992px) {
+    .photo-cafe{
+        position: relative;
+        margin: 55px 0 80px 20px;
+        width: 96%;
+    }
+    .photo-dancing{
+        position: absolute;
+        width: 27%;
+        z-index: 1;
+        left: 59%;
+        bottom: -175px;
+    }
+    .gif-london{
+        margin: 20px 0 0 250px;
+        width: 90%;
+    }
+    .photo-london{
+        position: relative;
+        margin: 37px 0 165px 0;
+    }
+    .gif-lightning{
+        position: absolute;
+        width: 59%;
+        z-index: 1;
+        left: 30%;
+        bottom: -570px;
+    }  
 }
 
-
-@media (min-width: 992px) {
-    #picblock {
-    height: 1920px;
-    background-image: url(desktop/pic1.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    }
-} */
