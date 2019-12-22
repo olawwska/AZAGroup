@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   </head>
-  <body>
+  <body>    
     <div class="modal custom show" id="exampleModal"role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -20,7 +20,7 @@
           </div>
           <div class="modal-body p-0">
             <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%"  data-toggle="tooltip" data-placement="top" title="90%"></div>
+                <div class="progress-bar bg-warning white-tooltip" role="progressbar" style="width: 90%" data-toggle="tooltip" data-placement="top" title="90%"></div>
             </div>
               <p class="text-center">Na Twój adres e-mail został wysłany link aktywacyjny. Kliknij w niego, aby potwierdzić subskrypcję i odebrać rabat na pierwsze zakupy. </p>
             <p class="text-center font-weight-bold">Przejdź do swojej skrzynki pocztowej:</p>
@@ -45,14 +45,9 @@
       $(document).ready(function()
 {
     $('#exampleModal').modal('show');
+    $('.progress-bar').tooltip('show');
 });
-  </script> 
-  <script type="text/javascript">
-    $(document).ready(function()
-{
-    $('[data-toggle="tooltip"]').tooltip();
-});
-</script>  
+  </script>  
   </body>
 </html>
 
