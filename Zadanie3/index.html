@@ -4,39 +4,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/Zadanie3/icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>    
-    <div class="widget loaded" id="next-visit">
-      <a href="" class="widget__toggle-button">
-          <i class="iconfont icon-arrow-left"></i>
-          <div class="text--vertical"> ODBIERZ 10% ZNIŻKI</div>
-      </a>
-      <div class="widget__content">
-        <div class="widget-header"></div>
-      <div class="row">
-          <div class="widget-header__discount col-5">-10%</div>
-          <div class="widget-header__title col-7">ZAPISZ SIĘ I ODBIERZ RABAT NA PIERWSZE ZAMÓWIENIE</div>
+    <div class="widget">
+      <div class="widget__toggle-button">
+        <div class="icon"><i class="fas fa-caret-left"></i></div>
+        <div class="text--vertical"> ODBIERZ 10% ZNIŻKI</div>
       </div>
-          <div class="widget-form ml-4">
-              <form>
-                <div class="widget-form__inputs row pt-4 pb-2">
-                    <input type="email" class="form-control col-5 mr-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adres e-mail">
-                    <input type="password" class="form-control col-5" id="exampleInputPassword1" placeholder="Numer telefonu (opcjonalnie)">
-                </div>                
-                  <div class="widget-form__regulations py-2">
-                      <span>Informacja na temat przetwarzania danych osobowych</span>
-                      <a ><b> - [pokaż]</b></a>
-                  </div>
-                  <div class="form-group form-check py-2">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">* Akceptuję <a>regulamin świadczenia usługi newsletter</a></label>
-                  </div>
-                  <button type="submit" class="btn btn-dark">ZAPISZ SIĘ</button>
-                </form>        
-      </div>    
+      <div class="widget__content">
+        <div class="widget-header row">
+            <div class="widget-header__discount col-5 p-0">-10%</div>
+            <div class="widget-header__title col-7">ZAPISZ SIĘ I ODBIERZ RABAT NA PIERWSZE ZAMÓWIENIE</div>
+        </div>
+        <div class="widget-form ml-4">
+          <form>
+            <div class="widget-form__inputs row pt-4 pb-2">
+              <input type="email" class="form-control col-5 mr-5" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adres e-mail">
+              <input type="password" class="form-control col-5" id="exampleInputPassword1" placeholder="Numer telefonu (opcjonalnie)">
+            </div>                
+            <div class="widget-form__regulations py-2">
+              <span>Informacja na temat przetwarzania danych osobowych</span>
+              <a ><b> - [pokaż]</b></a>
+            </div>
+            <div class="form-group form-check py-2 ml-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">* Akceptuję <a>regulamin świadczenia usługi newsletter</a></label>
+            </div>
+            <button type="submit" class="btn btn-dark mt-2">ZAPISZ SIĘ</button>
+          </form>        
+        </div>    
     </div>
 
     <!-- Optional JavaScript -->
@@ -45,18 +45,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript">
-    // $(function(){
-    //   const button = $('.widget__toggle-button')
-
-
-    // })
-
-
       $('.widget__toggle-button').click(function(event){
         event.preventDefault();
         $('.widget').toggleClass('show');
+        $('.icon').toggleClass('rotate');
       })
-  </script>   
+    </script>   
   </body>
 </html>
 
